@@ -1,0 +1,14 @@
+{
+  "execution_attempted": false,
+  "execution_result": "REFUSED",
+  "reason_code": "EXECUTION_REFUSED_DETERMINATION_ALREADY_CONSUMED",
+  "release_id": "REL-6ECA20A2D8551C512544D5B5859EAF8FDFF128C745C2514CDDF13CC10E87074B",
+  "determination_id": "DET-8B211EBB2316334E0EC06E176B785387FFC9FFE8E6798BFDEEBBBE57A510687F",
+  "state_id": "STATE-001",
+  "executed_at": "2026-10-12T21:46:21Z",
+  "observed_state": {
+    "simulation_only": true,
+    "real_vehicle_actuation": false
+  },
+  "execution_policy_version": "EAG-EXECUTION-0.1"
+}

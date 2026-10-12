@@ -1,0 +1,49 @@
+{
+  "evidence_class": "CONTEMPORANEOUS_LOCAL_SYNTHETIC_TEST",
+  "recorded_at_utc": "2026-10-12T21:49:18Z",
+  "cases": [
+    {
+      "case": "CALLBACK_UNAVAILABLE",
+      "reason_code": "AUTHORITY_OR_EXECUTION_INTEGRATION_FAILED",
+      "execution_attempted": false,
+      "unhandled_exception": null,
+      "consumption_marker_count": 0,
+      "pass": true
+    },
+    {
+      "case": "TAMPERED_RECEIPT",
+      "reason_code": "AUTHORITY_VERIFICATION_FAILED",
+      "execution_attempted": false,
+      "unhandled_exception": null,
+      "consumption_marker_count": 0,
+      "pass": true
+    },
+    {
+      "case": "INCORRECT_PUBLIC_KEY",
+      "reason_code": "AUTHORITY_VERIFICATION_FAILED",
+      "execution_attempted": false,
+      "unhandled_exception": null,
+      "consumption_marker_count": 0,
+      "pass": true
+    },
+    {
+      "case": "INCORRECT_SCOPE",
+      "reason_code": "AUTHORITY_SCOPE_MISMATCH",
+      "execution_attempted": false,
+      "unhandled_exception": null,
+      "consumption_marker_count": 0,
+      "pass": true
+    }
+  ],
+  "test_count": 4,
+  "failure_count": 0,
+  "passed": true,
+  "limitations": [
+    "Local signed-authority service and adapter only",
+    "Refusal assessed by adapter result and absence of consumption markers",
+    "No independent public-key trust anchor established",
+    "No real vehicle actuation",
+    "Production non-bypassability not established"
+  ],
+  "publication_status": "HOLD_PENDING_ADDITIONAL_VALIDATION"
+}

@@ -1,0 +1,22 @@
+{
+  "execution_attempted": true,
+  "execution_result": "COMPLETED",
+  "reason_code": "SIMULATED_EXECUTION_COMPLETED",
+  "release_id": "REL-6ECA20A2D8551C512544D5B5859EAF8FDFF128C745C2514CDDF13CC10E87074B",
+  "determination_id": "DET-8B211EBB2316334E0EC06E176B785387FFC9FFE8E6798BFDEEBBBE57A510687F",
+  "state_id": "STATE-001",
+  "executed_at": "2026-10-12T21:46:21Z",
+  "observed_state": {
+    "action_type": "AUTONOMOUS_MANOEUVRE",
+    "action_target": "SIMULATED_EXECUTION_STUB",
+    "parameters": {
+      "action": "SIMULATED_ONLY"
+    },
+    "vehicle_id": "VEHICLE-001",
+    "state_id": "STATE-001",
+    "simulation_only": true,
+    "physical_actuation": false
+  },
+  "result_hash": "32B3A1C9EC592D01A616D85C91ECF1341677CFB40BAFBB4C507E3AC752E25B9C",
+  "execution_policy_version": "EAG-EXECUTION-0.1"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "ELIAS-AUTOMOTIVE-V02-FROZEN-VERIFY-01",
+  "verified_at_utc": "2026-10-12T21:53:16.335428+00:00",
+  "freeze": "C:\\Users\\garys\\Documents\\elias-automotive-lifecycle-v0.2\\FREEZE\\AUTOMOTIVE_V02_SYNTHETIC_EVIDENCE_01",
+  "manifest_sha256": "09026A6730BE3A46C4B42F577C0D2F5D3063B1380EE07AD30E5DAB4B0514B4D0",
+  "verified_entries": 20,
+  "unlisted_files": [],
+  "errors": [],
+  "passed": true,
+  "publication_status": "HOLD_PENDING_ADDITIONAL_VALIDATION"
+}

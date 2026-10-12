@@ -1,0 +1,47 @@
+﻿{
+    "evidence_id":  "AUTOMOTIVE-V02-ACTUAL-SIMULATOR-3OF3",
+    "evidence_class":  "OPERATOR_TRANSCRIBED_TERMINAL_RESULT",
+    "recorded_at_utc":  "2026-10-12T20:15:39Z",
+    "original_test_timestamp_utc":  "NOT_CAPTURED",
+    "test_environment":  "LOCAL_WINDOWS_SYNTHETIC",
+    "test_cases":  3,
+    "test_failures":  0,
+    "results":  [
+                    {
+                        "case":  "ACTIVE",
+                        "reason_code":  "SIMULATED_EXECUTION_COMPLETED",
+                        "execution_attempted":  true,
+                        "fresh_nonce":  true,
+                        "pass":  true
+                    },
+                    {
+                        "case":  "REVOKED",
+                        "reason_code":  "AUTHORITY_REVOKED_OR_INACTIVE",
+                        "execution_attempted":  false,
+                        "fresh_nonce":  true,
+                        "pass":  true
+                    },
+                    {
+                        "case":  "CROSS_RELEASE",
+                        "reason_code":  "AUTHORITY_RELEASE_BINDING_MISMATCH",
+                        "execution_attempted":  false,
+                        "fresh_nonce":  true,
+                        "pass":  true
+                    }
+                ],
+    "observed_conclusion":  "ACTUAL_SIMULATOR_INTEGRATION_PASS",
+    "evidence_limitations":  [
+                                 "Results transcribed from the operator\u0027s displayed terminal output.",
+                                 "This record was created after the test; it is not a contemporaneous execution receipt.",
+                                 "No original terminal log or test-run artifact was captured by the test command.",
+                                 "Source hashes identify the files present when this evidence record was created, not independently proven execution-time hashes.",
+                                 "Public key was obtained from the local test service; independent trust anchoring not established.",
+                                 "The execution-time value and current-receipt callback were supplied by the test harness.",
+                                 "Real vehicle actuation not performed.",
+                                 "Production non-bypassability not established.",
+                                 "Restart persistence, concurrency and deployment suitability remain unverified."
+                             ],
+    "historical_fixture_modified":  false,
+    "real_vehicle_actuation":  false,
+    "publication_status":  "HOLD_PENDING_ADDITIONAL_VALIDATION"
+}

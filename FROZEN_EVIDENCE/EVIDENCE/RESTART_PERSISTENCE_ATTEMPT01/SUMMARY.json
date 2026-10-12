@@ -1,0 +1,10 @@
+﻿{
+    "evidence_class":  "CONTEMPORANEOUS_LOCAL_SYNTHETIC_TEST",
+    "recorded_at_utc":  "2026-10-12T21:46:21.1635887Z",
+    "first_process_reason":  "SIMULATED_EXECUTION_COMPLETED",
+    "second_process_reason":  "EXECUTION_REFUSED_DETERMINATION_ALREADY_CONSUMED",
+    "restart_persistence_pass":  true,
+    "limitation":  "Two sequential local Python processes sharing the same consumption directory; not a host reboot or distributed deployment test.",
+    "real_vehicle_actuation":  false,
+    "publication_status":  "HOLD_PENDING_ADDITIONAL_VALIDATION"
+}

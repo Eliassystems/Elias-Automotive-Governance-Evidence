@@ -1,0 +1,54 @@
+{
+  "evidence_class": "CONTEMPORANEOUS_LOCAL_SYNTHETIC_TEST",
+  "recorded_at_utc": "2026-10-12T20:17:55Z",
+  "test": "TWO_CONCURRENT_ATTEMPTS_ONE_RELEASE",
+  "results": [
+    {
+      "execution_attempted": false,
+      "execution_result": "REFUSED",
+      "reason_code": "EXECUTION_REFUSED_DETERMINATION_ALREADY_CONSUMED",
+      "release_id": "REL-022C7AC73DF2ABA69F836409584070517E16657AD2FE67B0985FE1E4E5B0ED04",
+      "determination_id": "DET-BEB7D1641B970453F354A409E49461BCF62789BA3C73763D69C3F235F7CC395A",
+      "state_id": "STATE-001",
+      "executed_at": "2026-10-12T20:17:55Z",
+      "observed_state": {
+        "simulation_only": true,
+        "real_vehicle_actuation": false
+      },
+      "execution_policy_version": "EAG-EXECUTION-0.1"
+    },
+    {
+      "execution_attempted": true,
+      "execution_result": "COMPLETED",
+      "reason_code": "SIMULATED_EXECUTION_COMPLETED",
+      "release_id": "REL-022C7AC73DF2ABA69F836409584070517E16657AD2FE67B0985FE1E4E5B0ED04",
+      "determination_id": "DET-BEB7D1641B970453F354A409E49461BCF62789BA3C73763D69C3F235F7CC395A",
+      "state_id": "STATE-001",
+      "executed_at": "2026-10-12T20:17:55Z",
+      "observed_state": {
+        "action_type": "AUTONOMOUS_MANOEUVRE",
+        "action_target": "SIMULATED_EXECUTION_STUB",
+        "parameters": {
+          "action": "SIMULATED_ONLY"
+        },
+        "vehicle_id": "VEHICLE-001",
+        "state_id": "STATE-001",
+        "simulation_only": true,
+        "physical_actuation": false
+      },
+      "result_hash": "32B3A1C9EC592D01A616D85C91ECF1341677CFB40BAFBB4C507E3AC752E25B9C",
+      "execution_policy_version": "EAG-EXECUTION-0.1"
+    }
+  ],
+  "success_count": 1,
+  "refusal_count": 1,
+  "passed": true,
+  "source_files_modified": false,
+  "real_vehicle_actuation": false,
+  "limitations": [
+    "Local synthetic simulator only",
+    "Two threads in one Python process",
+    "Not proof of cross-process or distributed atomicity",
+    "Not proof of production non-bypassability"
+  ]
+}

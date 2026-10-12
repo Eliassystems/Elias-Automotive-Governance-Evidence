@@ -1,0 +1,68 @@
+{
+  "schema": "ELIAS-AUTOMOTIVE-V02-EVIDENCE-AUDIT-01",
+  "audited_at_utc": "2026-10-12T21:51:11.595266+00:00",
+  "scope": "LOCAL_SYNTHETIC_AUTOMOTIVE_VALIDATION",
+  "packages": {
+    "ACTUAL_SIMULATOR_INTEGRATION_3OF3": {
+      "manifest": {
+        "status": "PASS",
+        "verified_files": 2,
+        "errors": []
+      },
+      "sources": {
+        "status": "MATCH",
+        "files_checked": 3,
+        "differences": []
+      }
+    },
+    "CONCURRENT_CONSUMPTION_ATTEMPT01": {
+      "manifest": {
+        "status": "PASS",
+        "verified_files": 2,
+        "errors": []
+      },
+      "sources": {
+        "status": "MATCH",
+        "files_checked": 3,
+        "differences": []
+      }
+    },
+    "RESTART_PERSISTENCE_ATTEMPT01": {
+      "manifest": {
+        "status": "PASS",
+        "verified_files": 5,
+        "errors": []
+      },
+      "sources": {
+        "status": "MATCH",
+        "files_checked": 3,
+        "differences": []
+      }
+    },
+    "FAIL_CLOSED_ATTEMPT01": {
+      "manifest": {
+        "status": "PASS",
+        "verified_files": 2,
+        "errors": []
+      },
+      "sources": {
+        "status": "MATCH",
+        "files_checked": 3,
+        "differences": []
+      }
+    }
+  },
+  "limitations": [
+    "Local synthetic evidence only",
+    "Recorded results are not independently reproduced by this audit",
+    "Source hash matching does not prove source immutability at test time",
+    "No real vehicle actuation",
+    "No production non-bypassability established",
+    "No host reboot persistence test established",
+    "No independently anchored signing-key trust established"
+  ],
+  "publication_status": "HOLD_PENDING_ADDITIONAL_VALIDATION",
+  "all_manifests_pass": true,
+  "all_sources_match_current_files": true,
+  "audit_pass": true
+}

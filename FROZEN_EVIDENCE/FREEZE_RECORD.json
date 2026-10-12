@@ -1,0 +1,33 @@
+{
+  "schema": "ELIAS-AUTOMOTIVE-V02-BOUNDED-FREEZE-01",
+  "created_at_utc": "2026-10-12T21:52:00.816707+00:00",
+  "scope": "LOCAL_SYNTHETIC_AUTOMOTIVE_GOVERNANCE",
+  "freeze_type": "EVIDENCE_SNAPSHOT",
+  "claims_supported_by_observed_tests": [
+    "Live signed-authority integration with actual synthetic simulator: 3/3",
+    "Sequential single-use replay refusal",
+    "Two-thread concurrent consumption: exactly one successful execution",
+    "Consumption persistence across two sequential local Python processes",
+    "Four fail-closed authority failure tests: 4/4",
+    "Consolidated evidence integrity audit: PASS"
+  ],
+  "important_evidence_qualification": "The earlier actual simulator integration result was operator-transcribed from terminal output, not captured as an original execution log.",
+  "not_established": [
+    "Real vehicle actuation or control",
+    "Production deployment authority",
+    "Independent non-bypassability",
+    "Independent signing-key trust anchor",
+    "Host reboot persistence",
+    "Distributed or multi-host atomic consumption",
+    "Hard real-time execution suitability",
+    "Elimination of check-to-use timing gaps",
+    "Automotive formal validation"
+  ],
+  "source_hashes_at_freeze": {
+    "automotive_authority_adapter.py": "292CA588C86BBBB65A83FB99D4AF4F299A078F2CF78BEB4BD329DCEC5EBD36BA",
+    "automotive_authority_service.py": "C2784F92D4FEC41A4B12AD693598A1ECB77BF6E7A104827D5D03FE65AD439EAD",
+    "automotive_runtime/execution_boundary.py": "8D2334845DA922006ACAE1186DEB6601DA73C79F6CD3D285AE0EF745C7D7DFB5"
+  },
+  "publication_status": "HOLD_PENDING_ADDITIONAL_VALIDATION",
+  "original_source_files_modified": false
+}

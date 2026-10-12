@@ -1,0 +1,130 @@
+{
+  "vehicle": {
+    "schema_version": "0.1",
+    "vehicle_id": "VEHICLE-001",
+    "platform_id": "SIM-PLATFORM-001",
+    "hardware_state_id": "HW-001",
+    "software_state_id": "SW-001",
+    "configuration_id": "CFG-001",
+    "session_id": "SESSION-001",
+    "observed_at": "2026-10-12T21:46:09Z"
+  },
+  "authority": {
+    "schema_version": "0.1",
+    "authority_id": "AUTH-001",
+    "authority_source": "SIMULATED-HUMAN-AUTHORITY",
+    "authority_subject": "VEHICLE-001",
+    "authority_scope": [
+      "AUTONOMOUS_MANOEUVRE"
+    ],
+    "bound_state_id": "STATE-001",
+    "constituted_at": "2026-10-12T21:44:21Z",
+    "valid_from": "2026-10-12T21:44:21Z",
+    "valid_until": "2026-10-12T21:56:21Z",
+    "revocation_state": "ACTIVE",
+    "supersession_state": "CURRENT",
+    "authority_status": "ESTABLISHED"
+  },
+  "context": {
+    "schema_version": "0.1",
+    "context_id": "CTX-001",
+    "operating_mode": "SIMULATION",
+    "vehicle_motion_state": "STATIONARY",
+    "location_context": "SIMULATED_TEST_ENVIRONMENT",
+    "environment_state": "CONTROLLED",
+    "operator_state": "PRESENT",
+    "connectivity_state": "CONNECTED",
+    "safety_state": "SIMULATION_ONLY",
+    "captured_at": "2026-10-12T21:46:14Z"
+  },
+  "delta": {
+    "schema_version": "0.1",
+    "delta_id": "DELTA-001",
+    "predecessor_state_id": "STATE-001",
+    "successor_state_id": "STATE-001",
+    "change_type": "NO_MATERIAL_CHANGE",
+    "change_source": "SIMULATED_STATE_SOURCE",
+    "change_evidence_id": "EVIDENCE-001",
+    "observed_at": "2026-10-12T21:46:14Z",
+    "materiality_status": "NON_MATERIAL"
+  },
+  "native_packet": {
+    "schema_version": "0.1",
+    "packet_identity": "PACKET-001",
+    "source_identity": "SIM-SOURCE-001",
+    "native_event_type": "AUTONOMOUS_REQUEST",
+    "native_payload": {
+      "event": "candidate_autonomous_manoeuvre",
+      "vehicle_speed_kph": 0,
+      "requested_action": "AUTONOMOUS_MANOEUVRE"
+    },
+    "source_timestamp": "2026-10-12T21:46:09Z",
+    "ingestion_timestamp": "2026-10-12T21:46:10Z",
+    "integrity_digest": "2AECEF94FE9E96018F105B11EF01C80622C8DCD04A02E015E02D741B9B54AFD8",
+    "parser_version": "0.1",
+    "transformation_status": "NATIVE",
+    "normalised_representation_id": null
+  },
+  "evidence": {
+    "schema_version": "0.1",
+    "evidence_id": "EVIDENCE-001",
+    "source_identity": "SIM-SOURCE-001",
+    "source_packet_identity": "PACKET-001",
+    "evidence_type": "SIMULATED_AUTOMOTIVE_STATE",
+    "observed_at": "2026-10-12T21:46:09Z",
+    "ingested_at": "2026-10-12T21:46:10Z",
+    "integrity_digest": "2AECEF94FE9E96018F105B11EF01C80622C8DCD04A02E015E02D741B9B54AFD8",
+    "provenance_status": "ESTABLISHED",
+    "integrity_status": "HELD",
+    "transformation_status": "NATIVE"
+  },
+  "consequence": {
+    "schema_version": "0.1",
+    "consequence_id": "CONSEQUENCE-001",
+    "proposed_state_id": "STATE-001",
+    "action_type": "AUTONOMOUS_MANOEUVRE",
+    "action_target": "SIMULATED_EXECUTION_STUB",
+    "parameters": {
+      "action": "SIMULATED_ONLY"
+    },
+    "proposed_by": "SIM-AGENT-001",
+    "proposed_at": "2026-10-12T21:46:15Z",
+    "bounded_scope": "ONE_SIMULATED_MANOEUVRE",
+    "expires_at": "2026-10-12T21:50:21Z"
+  },
+  "current_state_id": "STATE-001",
+  "evaluation_time": "2026-10-12T21:46:19Z",
+  "determination": {
+    "schema_version": "0.1",
+    "determination_id": "DET-8B211EBB2316334E0EC06E176B785387FFC9FFE8E6798BFDEEBBBE57A510687F",
+    "vehicle_identity": "VEHICLE-001",
+    "state_identity": "STATE-001",
+    "authority_identity": "AUTH-001",
+    "context_identity": "CTX-001",
+    "delta_identity": "DELTA-001",
+    "evidence_identity": "EVIDENCE-001",
+    "consequence_identity": "CONSEQUENCE-001",
+    "decision": "PERMIT",
+    "reason_code": "PERMIT_EXACT_BOUND_STATE",
+    "determined_at": "2026-10-12T21:46:19Z",
+    "latency_ms": 0.0,
+    "policy_version": "EAG-POLICY-0.1"
+  },
+  "release": {
+    "schema_version": "0.1",
+    "release_id": "REL-6ECA20A2D8551C512544D5B5859EAF8FDFF128C745C2514CDDF13CC10E87074B",
+    "determination_id": "DET-8B211EBB2316334E0EC06E176B785387FFC9FFE8E6798BFDEEBBBE57A510687F",
+    "vehicle_id": "VEHICLE-001",
+    "state_id": "STATE-001",
+    "authority_id": "AUTH-001",
+    "context_id": "CTX-001",
+    "delta_id": "DELTA-001",
+    "evidence_id": "EVIDENCE-001",
+    "consequence_id": "CONSEQUENCE-001",
+    "policy_version": "EAG-POLICY-0.1",
+    "issued_at": "2026-10-12T21:46:20Z",
+    "expires_at": "2026-10-12T21:49:21Z",
+    "single_use": true,
+    "binding_hash": "6ECA20A2D8551C512544D5B5859EAF8FDFF128C745C2514CDDF13CC10E87074B"
+  }
+}
